@@ -21,6 +21,19 @@
 
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,10" Background="#FF4A9BC6">
             <TextBlock Text="Buscar Medicamentos"></TextBlock>
+
+            <ListBox x:Name="lbMedicamento" Width="400" Margin="28,279,28,153" >
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="2" BorderBrush="White">
+                            <StackPanel Orientation="Vertical" >
+                                <TextBlock Text="{Binding NOM_MED}" Width="200" />
+                                <TextBlock Text="{Binding CON_MED}" Width="200" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
         </Grid>
     </Grid>
 

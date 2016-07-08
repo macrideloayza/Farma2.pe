@@ -222,6 +222,5 @@ C:\Farma2\Farma.pe\WebAPI_Farma.pe\bin\es\Microsoft.Owin.Security.Google.resourc
 C:\Farma2\Farma.pe\WebAPI_Farma.pe\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Farma2\Farma.pe\WebAPI_Farma.pe\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Farma2\Farma.pe\WebAPI_Farma.pe\bin\es\System.Web.Http.Owin.resources.dll
-C:\Farma2\Farma.pe\WebAPI_Farma.pe\obj\Debug\WebAPI_Farma.pe.csprojResolveAssemblyReference.cache
 C:\Farma2\Farma.pe\WebAPI_Farma.pe\obj\Debug\WebAPI_Farma.pe.dll
 C:\Farma2\Farma.pe\WebAPI_Farma.pe\obj\Debug\WebAPI_Farma.pe.pdb
