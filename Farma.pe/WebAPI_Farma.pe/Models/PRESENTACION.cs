@@ -12,19 +12,18 @@ namespace WebAPI_Farma.pe.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class PROVINCIA
+    public partial class PRESENTACION
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public PROVINCIA()
+        public PRESENTACION()
         {
-            this.DISTRITO = new HashSet<DISTRITO>();
+            this.MEDICAMENTOes = new HashSet<MEDICAMENTO>();
         }
     
-        public int ID_PRO { get; set; }
-        public string DES_PRO { get; set; }
+        public int ID_PRE { get; set; }
+        public string DES_PRE { get; set; }
     
-        public virtual DEPARTAMENTO DEPARTAMENTO { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<DISTRITO> DISTRITO { get; set; }
+        public virtual ICollection<MEDICAMENTO> MEDICAMENTOes { get; set; }
     }
 }

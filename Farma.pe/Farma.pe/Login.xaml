@@ -20,29 +20,14 @@
         </Grid.RowDefinitions>
 
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,10" Background="#FF4A9BC3">
-            <Image Source="/imagenes/logo.png" Margin="94,46,94,498" />
-
-            <phone:Pivot HorizontalAlignment="Left" Height="483" Margin="10,256,0,0" Title="" VerticalAlignment="Top" Width="436">
-                <phone:PivotItem CacheMode="{x:Null}" Header="" Margin="10,-8,14,-119">
-                    <Grid Height="443" Width="421">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="257*"/>
-                            <RowDefinition Height="186*"/>
-                        </Grid.RowDefinitions>
-                        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Margin="41,86,0,99" TextWrapping="Wrap"  Text="" Width="340" Foreground="Black" BorderBrush="Black" Background="#CCF09E89" FontSize="30" FontFamily="Comic Sans MS" d:LayoutOverrides="TopPosition, BottomPosition"/>
-                        <TextBox x:Name="txtContrasena" HorizontalAlignment="Left" Height="72" Margin="41,196,0,-11" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340" Foreground="Black" BorderBrush="Black" Background="#CCF09E89" FontSize="30" FontFamily="Comic Sans MS"/>
-                        <Button x:Name="btnIngresar" Content="Ingresar" HorizontalAlignment="Left" Margin="103,82,0,0" VerticalAlignment="Top" Width="204" FontFamily="Comic Sans MS" FontSize="30" BorderBrush="Black" Background="#CCF09E89" Foreground="White" Click="btnIngresar_Click" Grid.Row="1" />
-                        <TextBlock x:Name="lblUsuario" HorizontalAlignment="Left" Margin="52,53,0,0" TextWrapping="Wrap" Text="Usuario:" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
-                        <TextBlock x:Name="lblContrasena" HorizontalAlignment="Left" Margin="52,0,0,52" TextWrapping="Wrap" Text="Contraseña:" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="30"/>
-                        <CheckBox x:Name="chkRecordarme" Content="Recordarme" HorizontalAlignment="Left" Margin="41,1,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="26" Width="237" Grid.Row="1" d:LayoutOverrides="VerticalAlignment"/>
-                    </Grid>
-                </phone:PivotItem>
-                <phone:PivotItem CacheMode="{x:Null}" Header="" Margin="10,10,14,-151">
-                    <Grid Margin="0,-112,0,0">
-                        <Button x:Name="btnRegistrarte" Content="Registrate" HorizontalAlignment="Left" Margin="103,339,0,0" VerticalAlignment="Top" Width="204" FontFamily="Comic Sans MS" FontSize="30" BorderBrush="Black" Background="#CCEB9F84" Foreground="White" Click="btnRegistrarte_Click"/>
-                    </Grid>
-                </phone:PivotItem>
-            </phone:Pivot>
+            <Image Source="/imagenes/logo.png" Margin="93,46,95,498" />
+            <TextBlock x:Name="lblUsuario" HorizontalAlignment="Left" Margin="41,260,0,0" TextWrapping="Wrap" Text="Usuario:" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30"/>
+            <TextBox x:Name="txtUsuario" Margin="16,295,13,385" TextWrapping="Wrap"  Text="" Foreground="Black" BorderBrush="Black" Background="#CCF09E89" FontSize="30" FontFamily="Comic Sans MS"/>
+            <TextBlock x:Name="lblContrasena" HorizontalAlignment="Left" Margin="41,0,0,350" TextWrapping="Wrap" Text="Contraseña:" VerticalAlignment="Bottom" FontFamily="Comic Sans MS" FontSize="30"/>
+            <PasswordBox x:Name="txtContrasena" Margin="16,408,13,0"  VerticalAlignment="Top" Foreground="Black" BorderBrush="Black" Background="#CCF09E89" FontSize="30" FontFamily="Comic Sans MS"/>
+            <CheckBox x:Name="chkRecordarme" Content="Recordarme" Margin="115,486,104,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="26"/>
+            <Button x:Name="btnIngresar" Content="Iniciar Sesión" Margin="64,596,61,79" FontFamily="Comic Sans MS" FontSize="30" BorderBrush="Black" Background="#CCF09E89" Foreground="White" Click="btnIngresar_Click" />
+            <Button x:Name="btnRegistrarte" Content="Registrate" Margin="64,667,61,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="30" BorderBrush="Black" Background="#CCEB9F84" Foreground="White" Click="btnRegistrarte_Click"/>
         </Grid>
     </Grid>
 

@@ -1,38 +1,44 @@
-﻿<xapCache source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Bin\Debug\Farma.pe_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="29/06/2016 21:02:48">
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="29/06/2016 20:58:37" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\obj\Debug\Farma.pe.dll" archivePath="Farma.pe.dll" lastWriteTime="29/06/2016 21:02:46" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\calendar.png" archivePath="imagenes\calendar.png" lastWriteTime="16/06/2016 18:28:52" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\logo.png" archivePath="imagenes\logo.png" lastWriteTime="29/06/2016 20:22:23" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\list.png" archivePath="imagenes\list.png" lastWriteTime="16/06/2016 18:28:52" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\logo_pequeno.png" archivePath="imagenes\logo_pequeno.png" lastWriteTime="16/06/2016 18:28:52" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\burgerMenu.png" archivePath="imagenes\burgerMenu.png" lastWriteTime="16/06/2016 18:28:52" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\pharmacy.png" archivePath="imagenes\pharmacy.png" lastWriteTime="16/06/2016 18:28:52" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\pharmacy2.png" archivePath="imagenes\pharmacy2.png" lastWriteTime="16/06/2016 18:28:52" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\imagenes\pills.png" archivePath="imagenes\pills.png" lastWriteTime="16/06/2016 18:28:52" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="29/06/2016 20:24:28" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="29/06/2016 20:24:28" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="29/06/2016 20:24:28" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="29/06/2016 20:24:28" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="29/06/2016 20:24:28" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="29/06/2016 20:58:38" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="16/06/2016 18:28:51" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\packages\WPToolkit.4.2013.06.11\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="11/06/2013 13:48:28" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="13/06/2016 23:06:14" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="13/06/2016 23:06:14" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="29/06/2016 20:58:38" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="29/06/2016 21:02:47" />
-  <file source="C:\Users\Paul\Documents\cibertec\Farma.pe\Farma.pe\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="29/06/2016 20:58:37" />
+﻿<xapCache source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Farma.pe_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="7/8/2016 1:18:08 PM">
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="7/8/2016 12:54:01 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\obj\Debug\Farma.pe.dll" archivePath="Farma.pe.dll" lastWriteTime="7/8/2016 1:18:05 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\calendar.png" archivePath="imagenes\calendar.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\logo.png" archivePath="imagenes\logo.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\list.png" archivePath="imagenes\list.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\logo_pequeno.png" archivePath="imagenes\logo_pequeno.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\burgerMenu.png" archivePath="imagenes\burgerMenu.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\pharmacy.png" archivePath="imagenes\pharmacy.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\pharmacy2.png" archivePath="imagenes\pharmacy2.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\imagenes\pills.png" archivePath="imagenes\pills.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="7/7/2016 8:36:10 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="7/8/2016 11:01:33 AM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\packages\WPToolkit.4.2013.06.11\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="7/7/2016 8:36:26 PM" />
+  <file source="C:\Farma2\Farma.pe\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="7/7/2016 8:36:25 PM" />
+  <file source="C:\Farma2\Farma.pe\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="7/7/2016 8:36:25 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/7/2016 8:36:09 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="7/8/2016 1:18:07 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="7/8/2016 12:54:02 PM" />
 </xapCache>

@@ -10,13 +10,12 @@
 namespace WebAPI_Farma.pe.Models
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class MEDICAMENTO_SINTOMA
+    public partial class USP_VALIDAR_USUARIO_Result
     {
-        public int ID_MEDSIN { get; set; }
-    
-        public virtual MEDICAMENTO MEDICAMENTO { get; set; }
-        public virtual SINTOMA SINTOMA { get; set; }
+        public int ID_USU { get; set; }
+        public string NOM_USU { get; set; }
+        public string PASS_USU { get; set; }
+        public string CORREO_USU { get; set; }
     }
 }

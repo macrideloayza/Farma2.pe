@@ -17,13 +17,13 @@ namespace WebAPI_Farma.pe.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public SINTOMA()
         {
-            this.MEDICAMENTO_SINTOMA = new HashSet<MEDICAMENTO_SINTOMA>();
+            this.MEDICAMENTOes = new HashSet<MEDICAMENTO>();
         }
     
         public int ID_SIN { get; set; }
         public string DES_SIN { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MEDICAMENTO_SINTOMA> MEDICAMENTO_SINTOMA { get; set; }
+        public virtual ICollection<MEDICAMENTO> MEDICAMENTOes { get; set; }
     }
 }

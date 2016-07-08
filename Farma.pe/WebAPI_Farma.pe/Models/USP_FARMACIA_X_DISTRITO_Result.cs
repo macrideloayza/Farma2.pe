@@ -10,13 +10,15 @@
 namespace WebAPI_Farma.pe.Models
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class LABORATORIO_MEDICAMENTO
+    public partial class USP_FARMACIA_X_DISTRITO_Result
     {
-        public int ID_LABMED { get; set; }
-    
-        public virtual LABORATORIO LABORATORIO { get; set; }
-        public virtual MEDICAMENTO MEDICAMENTO { get; set; }
+        public int ID_FAR { get; set; }
+        public int ID_DIS { get; set; }
+        public string NOM_FAR { get; set; }
+        public string DIR_FAR { get; set; }
+        public Nullable<decimal> CORX_FAR { get; set; }
+        public Nullable<decimal> CORDY_FAR { get; set; }
+        public string HORARIO_FAR { get; set; }
     }
 }

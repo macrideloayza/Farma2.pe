@@ -10,20 +10,16 @@
 namespace WebAPI_Farma.pe.Models
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class LABORATORIO
+    public partial class USP_MEDICAMENTO_FILTRO_Result
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public LABORATORIO()
-        {
-            this.MEDICAMENTOes = new HashSet<MEDICAMENTO>();
-        }
-    
+        public int ID_MED { get; set; }
+        public int ID_ADV { get; set; }
+        public int ID_FOR { get; set; }
+        public int ID_PRE { get; set; }
         public int ID_LAB { get; set; }
-        public string NOM_LAB { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MEDICAMENTO> MEDICAMENTOes { get; set; }
+        public int ID_SIN { get; set; }
+        public string NOM_MED { get; set; }
+        public string CON_MED { get; set; }
     }
 }
