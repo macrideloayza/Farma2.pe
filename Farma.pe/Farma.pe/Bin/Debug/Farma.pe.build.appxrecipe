@@ -224,6 +224,9 @@
     <AppxPackagedFile Include="C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\imagenes\flechaDerecha.png">
+      <PackagePath>imagenes\flechaDerecha.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\imagenes\calendar.png">
       <PackagePath>imagenes\calendar.png</PackagePath>
     </AppxPackagedFile>

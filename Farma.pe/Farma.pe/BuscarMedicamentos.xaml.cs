@@ -44,6 +44,12 @@ namespace Farma.pe
             {
                 List<Medicamento> arr = JsonConvert.DeserializeObject<List<Medicamento>>(e.Result);
 
+                for (int i = 0; i < arr.Count(); i++)
+                {
+                    arr.ElementAt(i).rutaFlecha = "/imagenes/flechaDerecha.png";
+                    arr.ElementAt(i).rutaImagen = "/imagenes/logo.png";
+                }
+
                 lbMedicamento.ItemsSource = arr;
 
             }

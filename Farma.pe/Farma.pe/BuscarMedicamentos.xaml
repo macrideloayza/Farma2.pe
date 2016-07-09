@@ -26,23 +26,33 @@
                 <Image x:Name="image" Height="32" Width="39" Source="/imagenes/pills.png" RenderTransformOrigin="3.652,0.144"/>
             </Button>
             <ListBox x:Name="lbMedicamento" Margin="4,147,6,0" >
-                <Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
-                    <StackPanel Orientation="Horizontal">
+                <!--<Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
+                    <StackPanel Orientation="Horizontal" Width="446">
                         <Image Source="/imagenes/logo.png" Margin="10,0,0,0" Width="72" Height="70" RenderTransformOrigin="0.433,0.617" />
-                        <StackPanel Orientation="Vertical" Background="#FFEFF0F5" Height="120" Width="442">
-                            <TextBlock Text="aaaaaaa"  FontSize="40" Margin="22,5,90,0" Foreground="#FF554E4E"/>
+                        <StackPanel Orientation="Vertical" Background="#FFEFF0F5" Height="120" Width="298">
+                            <TextBlock Text="aaaaaaa"  FontSize="40" Margin="22,5,0,0" Foreground="#FF554E4E" Height="62"/>
                             <TextBlock Text="aaaaaa" FontSize="20" Foreground="#FF705C5C" Height="44" Margin="30,0,90,0" RenderTransformOrigin="0.533,0.66" />
                         </StackPanel>
-                        <Image Source="/imagenes/logo.png" Margin="10,0,0,0" Width="72" Height="70" RenderTransformOrigin="0.433,0.617" />
+                        <Image Source="/imagenes/flechaDerecha.png" Margin="10,0,0,0" Width="50" Height="50" RenderTransformOrigin="0.433,0.617" />
                     </StackPanel>
-                </Border>
+                </Border>-->
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
+                        <!--<Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
                             <StackPanel Orientation="Vertical" Background="Gray" Height="150">
                                 <TextBlock Text="{Binding NOM_MED}"  FontSize="30" Width="452"/>
 
                                 <TextBlock Text="{Binding CON_MED}" FontSize="20" />
+                            </StackPanel>
+                        </Border>-->
+                        <Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
+                            <StackPanel Orientation="Horizontal" Width="446">
+                                <Image Source="{Binding rutaImagen}" Margin="10,0,0,0" Width="72" Height="70" RenderTransformOrigin="0.433,0.617" />
+                                <StackPanel Orientation="Vertical" Background="#FFEFF0F5" Height="120" Width="298">
+                                    <TextBlock Text="{Binding NOM_MED}"  FontSize="40" Margin="22,5,0,0" Foreground="#FF554E4E" Height="62"/>
+                                    <TextBlock Text="{Binding CON_MED}" FontSize="20" Foreground="#FF705C5C" Height="44" Margin="30,0,90,0" RenderTransformOrigin="0.533,0.66" />
+                                </StackPanel>
+                                <Image Source="{Binding rutaFlecha}" Margin="10,0,0,0" Width="50" Height="50" RenderTransformOrigin="0.433,0.617" />
                             </StackPanel>
                         </Border>
                     </DataTemplate>

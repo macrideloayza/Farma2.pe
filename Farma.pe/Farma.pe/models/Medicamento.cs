@@ -16,5 +16,8 @@ namespace Farma.pe.models
         public int ID_SIN { get; set; }
         public string NOM_MED { get; set; }
         public string CON_MED { get; set; }
+
+        public string rutaImagen { get; set; }
+        public string rutaFlecha { get; set; }
     }
 }
