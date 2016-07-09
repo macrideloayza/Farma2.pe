@@ -377,6 +377,7 @@
       <Parameter Name="NOM_USU" Mode="In" Type="String" />
       <Parameter Name="PASS_USU" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="USP_TOP20_MEDICAMENTO" ReturnType="Collection(BD_FARMACIAModel.USP_TOP20_MEDICAMENTO_Result)" />
   </EntityContainer>
   <ComplexType Name="USP_FARMACIA_X_DISTRITO_Result">
     <Property Type="Int32" Name="ID_FAR" Nullable="false" />
@@ -402,5 +403,15 @@
     <Property Type="String" Name="NOM_USU" Nullable="false" MaxLength="30" />
     <Property Type="String" Name="PASS_USU" Nullable="false" MaxLength="30" />
     <Property Type="String" Name="CORREO_USU" Nullable="true" MaxLength="150" />
+  </ComplexType>
+  <ComplexType Name="USP_TOP20_MEDICAMENTO_Result">
+    <Property Type="Int32" Name="ID_MED" Nullable="false" />
+    <Property Type="Int32" Name="ID_ADV" Nullable="false" />
+    <Property Type="Int32" Name="ID_FOR" Nullable="false" />
+    <Property Type="Int32" Name="ID_PRE" Nullable="false" />
+    <Property Type="Int32" Name="ID_LAB" Nullable="false" />
+    <Property Type="Int32" Name="ID_SIN" Nullable="false" />
+    <Property Type="String" Name="NOM_MED" Nullable="false" MaxLength="200" />
+    <Property Type="String" Name="CON_MED" Nullable="true" MaxLength="100" />
   </ComplexType>
 </Schema>

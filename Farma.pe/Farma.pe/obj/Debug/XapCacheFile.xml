@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Farma.pe_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="7/8/2016 3:11:16 PM">
+﻿<xapCache source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Farma.pe_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="7/8/2016 6:47:59 PM">
   <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="7/8/2016 2:46:44 PM" />
-  <file source="C:\Farma2\Farma.pe\Farma.pe\obj\Debug\Farma.pe.dll" archivePath="Farma.pe.dll" lastWriteTime="7/8/2016 3:11:13 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\obj\Debug\Farma.pe.dll" archivePath="Farma.pe.dll" lastWriteTime="7/8/2016 6:47:52 PM" />
   <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="7/7/2016 8:36:09 PM" />
   <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="7/7/2016 8:36:09 PM" />
   <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="7/7/2016 8:36:09 PM" />
@@ -38,7 +38,7 @@
   <file source="C:\Farma2\Farma.pe\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="7/7/2016 8:36:25 PM" />
   <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="7/7/2016 8:36:09 PM" />
   <file source="C:\Farma2\Farma.pe\Farma.pe\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="7/7/2016 8:36:09 PM" />
-  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/7/2016 8:36:09 PM" />
-  <file source="C:\Farma2\Farma.pe\Farma.pe\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="7/8/2016 3:11:16 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="7/8/2016 3:41:14 PM" />
+  <file source="C:\Farma2\Farma.pe\Farma.pe\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="7/8/2016 6:47:58 PM" />
   <file source="C:\Farma2\Farma.pe\Farma.pe\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="7/8/2016 2:46:45 PM" />
 </xapCache>

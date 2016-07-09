@@ -17,10 +17,10 @@ namespace WebAPI_Farma.pe.Controllers
         private BD_FARMACIAEntities db = new BD_FARMACIAEntities();
 
         // GET: api/MEDICAMENTO
-        public IQueryable<MEDICAMENTO> GetMEDICAMENTOes()
-        {
-            return db.MEDICAMENTOes;
-        }
+        //public IQueryable<MEDICAMENTO> GetMEDICAMENTOes()
+        //{
+        //    return db.MEDICAMENTOes;
+        //}
 
         // GET: api/MEDICAMENTO/5
         [ResponseType(typeof(MEDICAMENTO))]
@@ -33,6 +33,13 @@ namespace WebAPI_Farma.pe.Controllers
             }
 
             return Ok(mEDICAMENTO);
+        }
+
+        // GET: api/MEDICAMENTO/5
+        [ResponseType(typeof(MEDICAMENTO))]
+        public IHttpActionResult GetTop20Medicamento()
+        {
+            return Ok(db.USP_TOP20_MEDICAMENTO());
         }
 
         // PUT: api/MEDICAMENTO/5

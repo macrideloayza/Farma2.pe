@@ -164,5 +164,19 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_TOP20_MEDICAMENTO" FunctionName="BD_FARMACIAModel.Store.USP_TOP20_MEDICAMENTO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_FARMACIAModel.USP_TOP20_MEDICAMENTO_Result">
+          <ScalarProperty Name="ID_MED" ColumnName="ID_MED" />
+          <ScalarProperty Name="ID_ADV" ColumnName="ID_ADV" />
+          <ScalarProperty Name="ID_FOR" ColumnName="ID_FOR" />
+          <ScalarProperty Name="ID_PRE" ColumnName="ID_PRE" />
+          <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
+          <ScalarProperty Name="ID_SIN" ColumnName="ID_SIN" />
+          <ScalarProperty Name="NOM_MED" ColumnName="NOM_MED" />
+          <ScalarProperty Name="CON_MED" ColumnName="CON_MED" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

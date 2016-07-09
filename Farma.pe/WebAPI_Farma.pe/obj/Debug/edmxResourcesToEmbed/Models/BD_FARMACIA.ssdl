@@ -281,6 +281,7 @@
     <Parameter Name="ID_PRE" Type="int" Mode="In" />
     <Parameter Name="ID_SIN" Type="int" Mode="In" />
   </Function>
+  <Function Name="USP_TOP20_MEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="USP_VALIDAR_USUARIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="NOM_USU" Type="nvarchar" Mode="In" />
     <Parameter Name="PASS_USU" Type="nvarchar" Mode="In" />

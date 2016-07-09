@@ -83,5 +83,10 @@ namespace WebAPI_Farma.pe.Models
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_VALIDAR_USUARIO_Result>("USP_VALIDAR_USUARIO", nOM_USUParameter, pASS_USUParameter);
         }
+    
+        public virtual ObjectResult<USP_TOP20_MEDICAMENTO_Result> USP_TOP20_MEDICAMENTO()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_TOP20_MEDICAMENTO_Result>("USP_TOP20_MEDICAMENTO");
+        }
     }
 }

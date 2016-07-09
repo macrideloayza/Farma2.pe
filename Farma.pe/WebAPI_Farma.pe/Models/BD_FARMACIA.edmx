@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="BD_FARMACIAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="BD_FARMACIAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="ADVERTENCIA">
           <Key>
             <PropertyRef Name="ID_ADV" />
@@ -286,6 +286,7 @@
           <Parameter Name="ID_PRE" Type="int" Mode="In" />
           <Parameter Name="ID_SIN" Type="int" Mode="In" />
         </Function>
+        <Function Name="USP_TOP20_MEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="USP_VALIDAR_USUARIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="NOM_USU" Type="nvarchar" Mode="In" />
           <Parameter Name="PASS_USU" Type="nvarchar" Mode="In" />
@@ -357,8 +358,7 @@
             <End Role="PROMOCION" EntitySet="PROMOCION" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="BD_FARMACIAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -727,7 +727,7 @@
             <End Role="PERSONA" EntitySet="PERSONAs" />
           </AssociationSet>
           <FunctionImport Name="USP_FARMACIA_X_DISTRITO" ReturnType="Collection(BD_FARMACIAModel.USP_FARMACIA_X_DISTRITO_Result)">
-            <Parameter Name="ID_DIS" Mode="In" Type="Int32" />
+          <Parameter Name="ID_DIS" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="USP_MEDICAMENTO_FILTRO" ReturnType="Collection(BD_FARMACIAModel.USP_MEDICAMENTO_FILTRO_Result)">
             <Parameter Name="ID_ADV" Mode="In" Type="Int32" />
@@ -739,6 +739,7 @@
             <Parameter Name="NOM_USU" Mode="In" Type="String" />
             <Parameter Name="PASS_USU" Mode="In" Type="String" />
           </FunctionImport>
+          <FunctionImport Name="USP_TOP20_MEDICAMENTO" ReturnType="Collection(BD_FARMACIAModel.USP_TOP20_MEDICAMENTO_Result)" />
         </EntityContainer>
         <ComplexType Name="USP_FARMACIA_X_DISTRITO_Result">
           <Property Type="Int32" Name="ID_FAR" Nullable="false" />
@@ -764,6 +765,16 @@
           <Property Type="String" Name="NOM_USU" Nullable="false" MaxLength="30" />
           <Property Type="String" Name="PASS_USU" Nullable="false" MaxLength="30" />
           <Property Type="String" Name="CORREO_USU" Nullable="true" MaxLength="150" />
+        </ComplexType>
+        <ComplexType Name="USP_TOP20_MEDICAMENTO_Result">
+          <Property Type="Int32" Name="ID_MED" Nullable="false" />
+          <Property Type="Int32" Name="ID_ADV" Nullable="false" />
+          <Property Type="Int32" Name="ID_FOR" Nullable="false" />
+          <Property Type="Int32" Name="ID_PRE" Nullable="false" />
+          <Property Type="Int32" Name="ID_LAB" Nullable="false" />
+          <Property Type="Int32" Name="ID_SIN" Nullable="false" />
+          <Property Type="String" Name="NOM_MED" Nullable="false" MaxLength="200" />
+          <Property Type="String" Name="CON_MED" Nullable="true" MaxLength="100" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -934,6 +945,20 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="USP_TOP20_MEDICAMENTO" FunctionName="BD_FARMACIAModel.Store.USP_TOP20_MEDICAMENTO">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_FARMACIAModel.USP_TOP20_MEDICAMENTO_Result">
+                <ScalarProperty Name="ID_MED" ColumnName="ID_MED" />
+                <ScalarProperty Name="ID_ADV" ColumnName="ID_ADV" />
+                <ScalarProperty Name="ID_FOR" ColumnName="ID_FOR" />
+                <ScalarProperty Name="ID_PRE" ColumnName="ID_PRE" />
+                <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
+                <ScalarProperty Name="ID_SIN" ColumnName="ID_SIN" />
+                <ScalarProperty Name="NOM_MED" ColumnName="NOM_MED" />
+                <ScalarProperty Name="CON_MED" ColumnName="CON_MED" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -948,7 +973,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />

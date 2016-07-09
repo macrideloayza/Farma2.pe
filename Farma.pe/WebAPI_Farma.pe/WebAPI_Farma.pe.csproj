@@ -302,6 +302,9 @@
     <Compile Include="Models\USP_MEDICAMENTO_FILTRO_Result.cs">
       <DependentUpon>BD_FARMACIA.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\USP_TOP20_MEDICAMENTO_Result.cs">
+      <DependentUpon>BD_FARMACIA.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\USP_VALIDAR_USUARIO_Result.cs">
       <DependentUpon>BD_FARMACIA.tt</DependentUpon>
     </Compile>
@@ -422,7 +425,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54973</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54973/</IISUrl>
+          <IISUrl>http://localhost:54973/WebAPI_Farma.pe</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
