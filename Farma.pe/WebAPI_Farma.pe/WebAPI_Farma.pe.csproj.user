@@ -9,7 +9,10 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>WebAPI_Farma.pe.Models.BD_FARMACIAEntities</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
+<<<<<<< HEAD
     <ProjectView>ProjectFiles</ProjectView>
+=======
+>>>>>>> e0b420de37fb702df107be7c8cd3eafba02deeb9
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

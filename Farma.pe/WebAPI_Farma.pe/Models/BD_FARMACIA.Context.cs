@@ -77,6 +77,7 @@ namespace WebAPI_Farma.pe.Models
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_TOP20_MEDICAMENTO_Result>("USP_TOP20_MEDICAMENTO");
         }
     
+<<<<<<< HEAD
         public virtual ObjectResult<USP_FARMACIA_X_FILTRO_Result> USP_FARMACIA_X_FILTRO(string fILTRO)
         {
             var fILTROParameter = fILTRO != null ?
@@ -89,6 +90,15 @@ namespace WebAPI_Farma.pe.Models
         public virtual ObjectResult<USP_TOP20_FARMACIA_Result> USP_TOP20_FARMACIA()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_TOP20_FARMACIA_Result>("USP_TOP20_FARMACIA");
+=======
+        public virtual ObjectResult<SP_LISTARFARMACIASXMEDICAMENTO_Result> SP_LISTARFARMACIASXMEDICAMENTO(Nullable<int> cODMEDICAMENTO)
+        {
+            var cODMEDICAMENTOParameter = cODMEDICAMENTO.HasValue ?
+                new ObjectParameter("CODMEDICAMENTO", cODMEDICAMENTO) :
+                new ObjectParameter("CODMEDICAMENTO", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_LISTARFARMACIASXMEDICAMENTO_Result>("SP_LISTARFARMACIASXMEDICAMENTO", cODMEDICAMENTOParameter);
+>>>>>>> e0b420de37fb702df107be7c8cd3eafba02deeb9
         }
     }
 }

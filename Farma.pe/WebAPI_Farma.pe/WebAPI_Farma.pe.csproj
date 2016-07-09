@@ -235,7 +235,11 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\FARMACIAController.cs" />
+=======
+    <Compile Include="Controllers\FARMACIAsController.cs" />
+>>>>>>> e0b420de37fb702df107be7c8cd3eafba02deeb9
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MEDICAMENTOController.cs" />
     <Compile Include="Controllers\USUARIOController.cs" />
@@ -295,6 +299,9 @@
       <DependentUpon>BD_FARMACIA.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SINTOMA.cs">
+      <DependentUpon>BD_FARMACIA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SP_LISTARFARMACIASXMEDICAMENTO_Result.cs">
       <DependentUpon>BD_FARMACIA.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\USP_FARMACIA_X_DISTRITO_Result.cs">
