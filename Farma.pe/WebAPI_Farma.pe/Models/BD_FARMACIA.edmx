@@ -280,9 +280,13 @@
         <Function Name="USP_FARMACIA_X_DISTRITO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="ID_DIS" Type="int" Mode="In" />
         </Function>
+        <Function Name="USP_FARMACIA_X_FILTRO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FILTRO" Type="varchar" Mode="In" />
+        </Function>
         <Function Name="USP_MEDICAMENTO_FILTRO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="filtro" Type="varchar" Mode="In" />
         </Function>
+        <Function Name="USP_TOP20_FARMACIA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="USP_TOP20_MEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="USP_VALIDAR_USUARIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="NOM_USU" Type="nvarchar" Mode="In" />
@@ -734,6 +738,10 @@
             <Parameter Name="PASS_USU" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="USP_TOP20_MEDICAMENTO" ReturnType="Collection(BD_FARMACIAModel.USP_TOP20_MEDICAMENTO_Result)" />
+          <FunctionImport Name="USP_FARMACIA_X_FILTRO" ReturnType="Collection(BD_FARMACIAModel.USP_FARMACIA_X_FILTRO_Result)">
+            <Parameter Name="FILTRO" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="USP_TOP20_FARMACIA" ReturnType="Collection(BD_FARMACIAModel.USP_TOP20_FARMACIA_Result)" />
         </EntityContainer>
         <ComplexType Name="USP_FARMACIA_X_DISTRITO_Result">
           <Property Type="Int32" Name="ID_FAR" Nullable="false" />
@@ -769,6 +777,24 @@
           <Property Type="Int32" Name="ID_SIN" Nullable="false" />
           <Property Type="String" Name="NOM_MED" Nullable="false" MaxLength="200" />
           <Property Type="String" Name="CON_MED" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="USP_FARMACIA_X_FILTRO_Result">
+          <Property Type="Int32" Name="ID_FAR" Nullable="false" />
+          <Property Type="Int32" Name="ID_DIS" Nullable="false" />
+          <Property Type="String" Name="NOM_FAR" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="DIR_FAR" Nullable="true" MaxLength="300" />
+          <Property Type="Decimal" Name="CORX_FAR" Nullable="true" Precision="8" Scale="6" />
+          <Property Type="Decimal" Name="CORDY_FAR" Nullable="true" Precision="8" Scale="6" />
+          <Property Type="String" Name="HORARIO_FAR" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="USP_TOP20_FARMACIA_Result">
+          <Property Type="Int32" Name="ID_FAR" Nullable="false" />
+          <Property Type="Int32" Name="ID_DIS" Nullable="false" />
+          <Property Type="String" Name="NOM_FAR" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="DIR_FAR" Nullable="true" MaxLength="300" />
+          <Property Type="Decimal" Name="CORX_FAR" Nullable="true" Precision="8" Scale="6" />
+          <Property Type="Decimal" Name="CORDY_FAR" Nullable="true" Precision="8" Scale="6" />
+          <Property Type="String" Name="HORARIO_FAR" Nullable="true" MaxLength="50" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -950,6 +976,32 @@
                 <ScalarProperty Name="ID_SIN" ColumnName="ID_SIN" />
                 <ScalarProperty Name="NOM_MED" ColumnName="NOM_MED" />
                 <ScalarProperty Name="CON_MED" ColumnName="CON_MED" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="USP_FARMACIA_X_FILTRO" FunctionName="BD_FARMACIAModel.Store.USP_FARMACIA_X_FILTRO">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_FARMACIAModel.USP_FARMACIA_X_FILTRO_Result">
+                <ScalarProperty Name="ID_FAR" ColumnName="ID_FAR" />
+                <ScalarProperty Name="ID_DIS" ColumnName="ID_DIS" />
+                <ScalarProperty Name="NOM_FAR" ColumnName="NOM_FAR" />
+                <ScalarProperty Name="DIR_FAR" ColumnName="DIR_FAR" />
+                <ScalarProperty Name="CORX_FAR" ColumnName="CORX_FAR" />
+                <ScalarProperty Name="CORDY_FAR" ColumnName="CORDY_FAR" />
+                <ScalarProperty Name="HORARIO_FAR" ColumnName="HORARIO_FAR" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="USP_TOP20_FARMACIA" FunctionName="BD_FARMACIAModel.Store.USP_TOP20_FARMACIA">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_FARMACIAModel.USP_TOP20_FARMACIA_Result">
+                <ScalarProperty Name="ID_FAR" ColumnName="ID_FAR" />
+                <ScalarProperty Name="ID_DIS" ColumnName="ID_DIS" />
+                <ScalarProperty Name="NOM_FAR" ColumnName="NOM_FAR" />
+                <ScalarProperty Name="DIR_FAR" ColumnName="DIR_FAR" />
+                <ScalarProperty Name="CORX_FAR" ColumnName="CORX_FAR" />
+                <ScalarProperty Name="CORDY_FAR" ColumnName="CORDY_FAR" />
+                <ScalarProperty Name="HORARIO_FAR" ColumnName="HORARIO_FAR" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

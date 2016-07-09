@@ -275,9 +275,13 @@
   <Function Name="USP_FARMACIA_X_DISTRITO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="ID_DIS" Type="int" Mode="In" />
   </Function>
+  <Function Name="USP_FARMACIA_X_FILTRO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FILTRO" Type="varchar" Mode="In" />
+  </Function>
   <Function Name="USP_MEDICAMENTO_FILTRO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="filtro" Type="varchar" Mode="In" />
   </Function>
+  <Function Name="USP_TOP20_FARMACIA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="USP_TOP20_MEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="USP_VALIDAR_USUARIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="NOM_USU" Type="nvarchar" Mode="In" />

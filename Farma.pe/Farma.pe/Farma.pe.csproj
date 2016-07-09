@@ -110,6 +110,7 @@
     <Compile Include="MenuPrincipal.xaml.cs">
       <DependentUpon>MenuPrincipal.xaml</DependentUpon>
     </Compile>
+    <Compile Include="models\Farmacia.cs" />
     <Compile Include="models\Medicamento.cs" />
     <Compile Include="models\Persona.cs" />
     <Compile Include="models\Usuario.cs" />

@@ -178,5 +178,31 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_FARMACIA_X_FILTRO" FunctionName="BD_FARMACIAModel.Store.USP_FARMACIA_X_FILTRO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_FARMACIAModel.USP_FARMACIA_X_FILTRO_Result">
+          <ScalarProperty Name="ID_FAR" ColumnName="ID_FAR" />
+          <ScalarProperty Name="ID_DIS" ColumnName="ID_DIS" />
+          <ScalarProperty Name="NOM_FAR" ColumnName="NOM_FAR" />
+          <ScalarProperty Name="DIR_FAR" ColumnName="DIR_FAR" />
+          <ScalarProperty Name="CORX_FAR" ColumnName="CORX_FAR" />
+          <ScalarProperty Name="CORDY_FAR" ColumnName="CORDY_FAR" />
+          <ScalarProperty Name="HORARIO_FAR" ColumnName="HORARIO_FAR" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_TOP20_FARMACIA" FunctionName="BD_FARMACIAModel.Store.USP_TOP20_FARMACIA">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_FARMACIAModel.USP_TOP20_FARMACIA_Result">
+          <ScalarProperty Name="ID_FAR" ColumnName="ID_FAR" />
+          <ScalarProperty Name="ID_DIS" ColumnName="ID_DIS" />
+          <ScalarProperty Name="NOM_FAR" ColumnName="NOM_FAR" />
+          <ScalarProperty Name="DIR_FAR" ColumnName="DIR_FAR" />
+          <ScalarProperty Name="CORX_FAR" ColumnName="CORX_FAR" />
+          <ScalarProperty Name="CORDY_FAR" ColumnName="CORDY_FAR" />
+          <ScalarProperty Name="HORARIO_FAR" ColumnName="HORARIO_FAR" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

@@ -21,6 +21,25 @@
 
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,10" Background="#FF4A9BC6">
             <TextBlock Text="Buscar Farmacias"></TextBlock>
+
+            <ListBox x:Name="lbFarmacia" Width="400" Margin="28,151,28,44">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
+                            <StackPanel Orientation="Horizontal" Width="446">
+                                <Image Source="{Binding rutaImagen}" Margin="10,0,0,0" Width="72" Height="70" RenderTransformOrigin="0.433,0.617" />
+                                <StackPanel Orientation="Vertical" Background="#FFEFF0F5" Height="120" Width="298">
+                                    <TextBlock Text="{Binding NOM_FAR}"  FontSize="40" Margin="22,5,0,0" Foreground="#FF554E4E" Height="62"/>
+                                    <TextBlock Text="{Binding DIR_FAR}" FontSize="20" Foreground="#FF705C5C" Height="44" Margin="30,0,90,0" RenderTransformOrigin="0.533,0.66" />
+                                </StackPanel>
+                                <Image Source="{Binding rutaFlecha}" Margin="10,0,0,0" Width="50" Height="50" RenderTransformOrigin="0.433,0.617" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button x:Name="btnFiltrar" Content="Filtrar" HorizontalAlignment="Left" Margin="327,53,0,0" VerticalAlignment="Top" Click="btnFiltrar_Click"/>
+            <TextBox x:Name="txtFiltro" HorizontalAlignment="Left" Height="72" Margin="10,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="312"/>
         </Grid>
     </Grid>
 

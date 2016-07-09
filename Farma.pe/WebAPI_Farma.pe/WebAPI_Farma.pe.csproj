@@ -235,6 +235,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FARMACIAController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MEDICAMENTOController.cs" />
     <Compile Include="Controllers\USUARIOController.cs" />
@@ -299,7 +300,13 @@
     <Compile Include="Models\USP_FARMACIA_X_DISTRITO_Result.cs">
       <DependentUpon>BD_FARMACIA.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\USP_FARMACIA_X_FILTRO_Result.cs">
+      <DependentUpon>BD_FARMACIA.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\USP_MEDICAMENTO_FILTRO_Result.cs">
+      <DependentUpon>BD_FARMACIA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\USP_TOP20_FARMACIA_Result.cs">
       <DependentUpon>BD_FARMACIA.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\USP_TOP20_MEDICAMENTO_Result.cs">

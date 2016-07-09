@@ -76,5 +76,19 @@ namespace WebAPI_Farma.pe.Models
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_TOP20_MEDICAMENTO_Result>("USP_TOP20_MEDICAMENTO");
         }
+    
+        public virtual ObjectResult<USP_FARMACIA_X_FILTRO_Result> USP_FARMACIA_X_FILTRO(string fILTRO)
+        {
+            var fILTROParameter = fILTRO != null ?
+                new ObjectParameter("FILTRO", fILTRO) :
+                new ObjectParameter("FILTRO", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_FARMACIA_X_FILTRO_Result>("USP_FARMACIA_X_FILTRO", fILTROParameter);
+        }
+    
+        public virtual ObjectResult<USP_TOP20_FARMACIA_Result> USP_TOP20_FARMACIA()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_TOP20_FARMACIA_Result>("USP_TOP20_FARMACIA");
+        }
     }
 }
