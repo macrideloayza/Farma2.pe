@@ -25,7 +25,7 @@
             <Button x:Name="btnMedicamentos"  HorizontalAlignment="Left" Margin="0,71,0,0" VerticalAlignment="Top" Width="82" FontFamily="Comic Sans MS" FontSize="30" BorderBrush="Black" Background="#FF4A9BC6" Foreground="White" Height="71" RenderTransformOrigin="4.47,3.182">
                 <Image x:Name="image" Height="32" Width="39" Source="/imagenes/pills.png" RenderTransformOrigin="3.652,0.144"/>
             </Button>
-            <ListBox x:Name="lbMedicamento" Margin="4,147,6,0" >
+            <ListBox x:Name="lbMedicamento" Margin="4,147,6,0" Tap="lbMedicamento_Tap" >
                 <!--<Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
                     <StackPanel Orientation="Horizontal" Width="446">
                         <Image Source="/imagenes/logo.png" Margin="10,0,0,0" Width="72" Height="70" RenderTransformOrigin="0.433,0.617" />
@@ -38,13 +38,6 @@
                 </Border>-->
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <!--<Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
-                            <StackPanel Orientation="Vertical" Background="Gray" Height="150">
-                                <TextBlock Text="{Binding NOM_MED}"  FontSize="30" Width="452"/>
-
-                                <TextBlock Text="{Binding CON_MED}" FontSize="20" />
-                            </StackPanel>
-                        </Border>-->
                         <Border BorderThickness="2" BorderBrush="White" Background="#FFEFF0F5">
                             <StackPanel Orientation="Horizontal" Width="446">
                                 <Image Source="{Binding rutaImagen}" Margin="10,0,0,0" Width="72" Height="70" RenderTransformOrigin="0.433,0.617" />

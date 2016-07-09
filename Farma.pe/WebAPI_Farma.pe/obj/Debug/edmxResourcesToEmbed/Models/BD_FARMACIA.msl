@@ -178,5 +178,29 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_LISTARFARMACIASXMEDICAMENTO" FunctionName="BD_FARMACIAModel.Store.SP_LISTARFARMACIASXMEDICAMENTO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BD_FARMACIAModel.SP_LISTARFARMACIASXMEDICAMENTO_Result">
+          <ScalarProperty Name="ID_FAR" ColumnName="ID_FAR" />
+          <ScalarProperty Name="ID_DIS" ColumnName="ID_DIS" />
+          <ScalarProperty Name="NOM_FAR" ColumnName="NOM_FAR" />
+          <ScalarProperty Name="DIR_FAR" ColumnName="DIR_FAR" />
+          <ScalarProperty Name="CORX_FAR" ColumnName="CORX_FAR" />
+          <ScalarProperty Name="CORDY_FAR" ColumnName="CORDY_FAR" />
+          <ScalarProperty Name="HORARIO_FAR" ColumnName="HORARIO_FAR" />
+          <ScalarProperty Name="ID_MED" ColumnName="ID_MED" />
+          <ScalarProperty Name="ID_FAR1" ColumnName="ID_FAR1" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="ID_MED1" ColumnName="ID_MED1" />
+          <ScalarProperty Name="ID_ADV" ColumnName="ID_ADV" />
+          <ScalarProperty Name="ID_FOR" ColumnName="ID_FOR" />
+          <ScalarProperty Name="ID_PRE" ColumnName="ID_PRE" />
+          <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
+          <ScalarProperty Name="ID_SIN" ColumnName="ID_SIN" />
+          <ScalarProperty Name="NOM_MED" ColumnName="NOM_MED" />
+          <ScalarProperty Name="CON_MED" ColumnName="CON_MED" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

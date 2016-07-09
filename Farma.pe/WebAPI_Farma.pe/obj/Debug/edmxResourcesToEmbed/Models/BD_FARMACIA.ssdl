@@ -272,6 +272,9 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="SP_LISTARFARMACIASXMEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODMEDICAMENTO" Type="int" Mode="In" />
+  </Function>
   <Function Name="USP_FARMACIA_X_DISTRITO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="ID_DIS" Type="int" Mode="In" />
   </Function>

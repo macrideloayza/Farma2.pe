@@ -76,5 +76,14 @@ namespace WebAPI_Farma.pe.Models
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_TOP20_MEDICAMENTO_Result>("USP_TOP20_MEDICAMENTO");
         }
+    
+        public virtual ObjectResult<SP_LISTARFARMACIASXMEDICAMENTO_Result> SP_LISTARFARMACIASXMEDICAMENTO(Nullable<int> cODMEDICAMENTO)
+        {
+            var cODMEDICAMENTOParameter = cODMEDICAMENTO.HasValue ?
+                new ObjectParameter("CODMEDICAMENTO", cODMEDICAMENTO) :
+                new ObjectParameter("CODMEDICAMENTO", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_LISTARFARMACIASXMEDICAMENTO_Result>("SP_LISTARFARMACIASXMEDICAMENTO", cODMEDICAMENTOParameter);
+        }
     }
 }

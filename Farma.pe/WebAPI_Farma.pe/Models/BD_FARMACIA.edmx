@@ -277,6 +277,9 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="SP_LISTARFARMACIASXMEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CODMEDICAMENTO" Type="int" Mode="In" />
+        </Function>
         <Function Name="USP_FARMACIA_X_DISTRITO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="ID_DIS" Type="int" Mode="In" />
         </Function>
@@ -734,6 +737,9 @@
             <Parameter Name="PASS_USU" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="USP_TOP20_MEDICAMENTO" ReturnType="Collection(BD_FARMACIAModel.USP_TOP20_MEDICAMENTO_Result)" />
+          <FunctionImport Name="SP_LISTARFARMACIASXMEDICAMENTO" ReturnType="Collection(BD_FARMACIAModel.SP_LISTARFARMACIASXMEDICAMENTO_Result)">
+            <Parameter Name="CODMEDICAMENTO" Mode="In" Type="Int32" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="USP_FARMACIA_X_DISTRITO_Result">
           <Property Type="Int32" Name="ID_FAR" Nullable="false" />
@@ -762,6 +768,26 @@
         </ComplexType>
         <ComplexType Name="USP_TOP20_MEDICAMENTO_Result">
           <Property Type="Int32" Name="ID_MED" Nullable="false" />
+          <Property Type="Int32" Name="ID_ADV" Nullable="false" />
+          <Property Type="Int32" Name="ID_FOR" Nullable="false" />
+          <Property Type="Int32" Name="ID_PRE" Nullable="false" />
+          <Property Type="Int32" Name="ID_LAB" Nullable="false" />
+          <Property Type="Int32" Name="ID_SIN" Nullable="false" />
+          <Property Type="String" Name="NOM_MED" Nullable="false" MaxLength="200" />
+          <Property Type="String" Name="CON_MED" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="SP_LISTARFARMACIASXMEDICAMENTO_Result">
+          <Property Type="Int32" Name="ID_FAR" Nullable="false" />
+          <Property Type="Int32" Name="ID_DIS" Nullable="false" />
+          <Property Type="String" Name="NOM_FAR" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="DIR_FAR" Nullable="true" MaxLength="300" />
+          <Property Type="Decimal" Name="CORX_FAR" Nullable="true" Precision="8" Scale="6" />
+          <Property Type="Decimal" Name="CORDY_FAR" Nullable="true" Precision="8" Scale="6" />
+          <Property Type="String" Name="HORARIO_FAR" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="ID_MED" Nullable="false" />
+          <Property Type="Int32" Name="ID_FAR1" Nullable="false" />
+          <Property Type="Decimal" Name="PRECIO" Nullable="false" Precision="19" />
+          <Property Type="Int32" Name="ID_MED1" Nullable="false" />
           <Property Type="Int32" Name="ID_ADV" Nullable="false" />
           <Property Type="Int32" Name="ID_FOR" Nullable="false" />
           <Property Type="Int32" Name="ID_PRE" Nullable="false" />
@@ -943,6 +969,30 @@
             <ResultMapping>
               <ComplexTypeMapping TypeName="BD_FARMACIAModel.USP_TOP20_MEDICAMENTO_Result">
                 <ScalarProperty Name="ID_MED" ColumnName="ID_MED" />
+                <ScalarProperty Name="ID_ADV" ColumnName="ID_ADV" />
+                <ScalarProperty Name="ID_FOR" ColumnName="ID_FOR" />
+                <ScalarProperty Name="ID_PRE" ColumnName="ID_PRE" />
+                <ScalarProperty Name="ID_LAB" ColumnName="ID_LAB" />
+                <ScalarProperty Name="ID_SIN" ColumnName="ID_SIN" />
+                <ScalarProperty Name="NOM_MED" ColumnName="NOM_MED" />
+                <ScalarProperty Name="CON_MED" ColumnName="CON_MED" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_LISTARFARMACIASXMEDICAMENTO" FunctionName="BD_FARMACIAModel.Store.SP_LISTARFARMACIASXMEDICAMENTO">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_FARMACIAModel.SP_LISTARFARMACIASXMEDICAMENTO_Result">
+                <ScalarProperty Name="ID_FAR" ColumnName="ID_FAR" />
+                <ScalarProperty Name="ID_DIS" ColumnName="ID_DIS" />
+                <ScalarProperty Name="NOM_FAR" ColumnName="NOM_FAR" />
+                <ScalarProperty Name="DIR_FAR" ColumnName="DIR_FAR" />
+                <ScalarProperty Name="CORX_FAR" ColumnName="CORX_FAR" />
+                <ScalarProperty Name="CORDY_FAR" ColumnName="CORDY_FAR" />
+                <ScalarProperty Name="HORARIO_FAR" ColumnName="HORARIO_FAR" />
+                <ScalarProperty Name="ID_MED" ColumnName="ID_MED" />
+                <ScalarProperty Name="ID_FAR1" ColumnName="ID_FAR1" />
+                <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+                <ScalarProperty Name="ID_MED1" ColumnName="ID_MED1" />
                 <ScalarProperty Name="ID_ADV" ColumnName="ID_ADV" />
                 <ScalarProperty Name="ID_FOR" ColumnName="ID_FOR" />
                 <ScalarProperty Name="ID_PRE" ColumnName="ID_PRE" />

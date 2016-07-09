@@ -476,3 +476,5 @@ C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\MultipleQua
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\ProjectArchitectures.txt
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\MDILProjectFiles.xml
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\XapCacheFile.xml
+C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\Farma.pe.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\Mapa.g.cs
