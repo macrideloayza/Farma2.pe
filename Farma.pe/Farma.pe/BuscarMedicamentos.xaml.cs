@@ -44,12 +44,14 @@ namespace Farma.pe
             {
                 List<Medicamento> arr = JsonConvert.DeserializeObject<List<Medicamento>>(e.Result);
 
+
                 for (int i = 0; i < arr.Count(); i++)
                 {
                     arr.ElementAt(i).rutaFlecha = "/imagenes/flechaDerecha.png";
                     arr.ElementAt(i).rutaImagen = "/imagenes/logo.png";
                 }
 
+                
                 lbMedicamento.ItemsSource = arr;
 
             }
@@ -57,6 +59,29 @@ namespace Farma.pe
             {
 
                 MessageBox.Show(ex.InnerException.Message);
+            }
+        }
+
+        private void txtFiltro_KeyUp(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+           
+        }
+
+        private void txtFiltro_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                WebClient wc = new WebClient();
+                Uri url = new Uri("http://localhost:54970/WebAPI_Farma.pe/api/Medicamento?filtro=" + txtFiltro.Text);
+
+                wc.DownloadStringCompleted += new DownloadStringCompletedEventHandler(Listar);
+                wc.DownloadStringAsync(url);
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
             }
         }
     }

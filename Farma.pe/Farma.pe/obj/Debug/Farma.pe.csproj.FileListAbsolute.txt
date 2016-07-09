@@ -447,7 +447,6 @@ C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\Bin\Debug\uz-Latn-UZ\
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
-C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\Farma.pe.csprojResolveAssemblyReference.cache
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\App.g.cs
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\BuscarFarmacias.g.cs
 C:\Users\Paul\Documents\GitHub\Farma2.pe\Farma.pe\Farma.pe\obj\Debug\BuscarMedicamentos.g.cs
