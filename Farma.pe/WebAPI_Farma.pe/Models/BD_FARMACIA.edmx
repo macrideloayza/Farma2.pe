@@ -281,10 +281,7 @@
           <Parameter Name="ID_DIS" Type="int" Mode="In" />
         </Function>
         <Function Name="USP_MEDICAMENTO_FILTRO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-          <Parameter Name="ID_ADV" Type="int" Mode="In" />
-          <Parameter Name="ID_FOR" Type="int" Mode="In" />
-          <Parameter Name="ID_PRE" Type="int" Mode="In" />
-          <Parameter Name="ID_SIN" Type="int" Mode="In" />
+          <Parameter Name="filtro" Type="varchar" Mode="In" />
         </Function>
         <Function Name="USP_TOP20_MEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="USP_VALIDAR_USUARIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
@@ -730,10 +727,7 @@
           <Parameter Name="ID_DIS" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="USP_MEDICAMENTO_FILTRO" ReturnType="Collection(BD_FARMACIAModel.USP_MEDICAMENTO_FILTRO_Result)">
-            <Parameter Name="ID_ADV" Mode="In" Type="Int32" />
-            <Parameter Name="ID_FOR" Mode="In" Type="Int32" />
-            <Parameter Name="ID_PRE" Mode="In" Type="Int32" />
-            <Parameter Name="ID_SIN" Mode="In" Type="Int32" />
+          <Parameter Name="filtro" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="USP_VALIDAR_USUARIO" ReturnType="Collection(BD_FARMACIAModel.USP_VALIDAR_USUARIO_Result)">
             <Parameter Name="NOM_USU" Mode="In" Type="String" />

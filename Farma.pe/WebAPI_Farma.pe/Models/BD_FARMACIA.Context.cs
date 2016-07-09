@@ -50,25 +50,13 @@ namespace WebAPI_Farma.pe.Models
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_FARMACIA_X_DISTRITO_Result>("USP_FARMACIA_X_DISTRITO", iD_DISParameter);
         }
     
-        public virtual ObjectResult<USP_MEDICAMENTO_FILTRO_Result> USP_MEDICAMENTO_FILTRO(Nullable<int> iD_ADV, Nullable<int> iD_FOR, Nullable<int> iD_PRE, Nullable<int> iD_SIN)
+        public virtual ObjectResult<USP_MEDICAMENTO_FILTRO_Result> USP_MEDICAMENTO_FILTRO(string filtro)
         {
-            var iD_ADVParameter = iD_ADV.HasValue ?
-                new ObjectParameter("ID_ADV", iD_ADV) :
-                new ObjectParameter("ID_ADV", typeof(int));
+            var filtroParameter = filtro != null ?
+                new ObjectParameter("filtro", filtro) :
+                new ObjectParameter("filtro", typeof(string));
     
-            var iD_FORParameter = iD_FOR.HasValue ?
-                new ObjectParameter("ID_FOR", iD_FOR) :
-                new ObjectParameter("ID_FOR", typeof(int));
-    
-            var iD_PREParameter = iD_PRE.HasValue ?
-                new ObjectParameter("ID_PRE", iD_PRE) :
-                new ObjectParameter("ID_PRE", typeof(int));
-    
-            var iD_SINParameter = iD_SIN.HasValue ?
-                new ObjectParameter("ID_SIN", iD_SIN) :
-                new ObjectParameter("ID_SIN", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_MEDICAMENTO_FILTRO_Result>("USP_MEDICAMENTO_FILTRO", iD_ADVParameter, iD_FORParameter, iD_PREParameter, iD_SINParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<USP_MEDICAMENTO_FILTRO_Result>("USP_MEDICAMENTO_FILTRO", filtroParameter);
         }
     
         public virtual ObjectResult<USP_VALIDAR_USUARIO_Result> USP_VALIDAR_USUARIO(string nOM_USU, string pASS_USU)

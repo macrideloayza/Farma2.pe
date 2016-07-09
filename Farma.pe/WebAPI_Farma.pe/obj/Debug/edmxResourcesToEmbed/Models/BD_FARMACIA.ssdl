@@ -276,10 +276,7 @@
     <Parameter Name="ID_DIS" Type="int" Mode="In" />
   </Function>
   <Function Name="USP_MEDICAMENTO_FILTRO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="ID_ADV" Type="int" Mode="In" />
-    <Parameter Name="ID_FOR" Type="int" Mode="In" />
-    <Parameter Name="ID_PRE" Type="int" Mode="In" />
-    <Parameter Name="ID_SIN" Type="int" Mode="In" />
+    <Parameter Name="filtro" Type="varchar" Mode="In" />
   </Function>
   <Function Name="USP_TOP20_MEDICAMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="USP_VALIDAR_USUARIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">

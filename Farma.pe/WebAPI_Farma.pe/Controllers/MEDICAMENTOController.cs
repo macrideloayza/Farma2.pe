@@ -35,6 +35,13 @@ namespace WebAPI_Farma.pe.Controllers
             return Ok(mEDICAMENTO);
         }
 
+        [ResponseType(typeof(MEDICAMENTO))]
+        public IHttpActionResult GetMEDICAMENTO(string filtro)
+        {
+
+            return Ok(db.USP_MEDICAMENTO_FILTRO(filtro));
+        }
+
         // GET: api/MEDICAMENTO/5
         [ResponseType(typeof(MEDICAMENTO))]
         public IHttpActionResult GetTop20Medicamento()

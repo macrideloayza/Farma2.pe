@@ -25,7 +25,7 @@ namespace Farma.pe
             try
             {
                 WebClient wc = new WebClient();
-                Uri url = new Uri("http://localhost:54973/WebAPI_Farma.pe/api/Medicamento/");
+                Uri url = new Uri("http://localhost:54970/WebAPI_Farma.pe/api/Medicamento/");
 
                 wc.DownloadStringCompleted += new DownloadStringCompletedEventHandler(Listar);
                 wc.DownloadStringAsync(url);
