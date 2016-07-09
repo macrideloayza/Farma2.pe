@@ -60,6 +60,7 @@
             </ListBox>
 
             <local:MenuBarraSuperior HorizontalAlignment="Left" VerticalAlignment="Top" Width="456"/>
+            <TextBox x:Name="txtFiltro" HorizontalAlignment="Left" Height="72" Margin="67,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="389" KeyUp="txtFiltro_KeyUp" TextChanged="txtFiltro_TextChanged"/>
         </Grid>
     </Grid>
 
