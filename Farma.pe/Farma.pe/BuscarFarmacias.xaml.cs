@@ -48,7 +48,7 @@ namespace Farma.pe
                 for (int i = 0; i < lista.Count(); i++)
                 {
                     lista.ElementAt(i).rutaFlecha = "/imagenes/flechaDerecha.png";
-                    lista.ElementAt(i).rutaImagen = "/imagenes/" + lista.ElementAt(i).ID_DIS + ".png" ;
+                    lista.ElementAt(i).rutaImagen = "/imagenes/farmacias/" + lista.ElementAt(i).ID_FAR + ".png" ;
                 }
 
                 lbFarmacia.ItemsSource = lista;
@@ -83,6 +83,11 @@ namespace Farma.pe
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void tapBuscar(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+
         }
     }
 }

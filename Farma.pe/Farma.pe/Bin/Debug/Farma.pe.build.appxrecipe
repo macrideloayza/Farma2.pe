@@ -224,6 +224,66 @@
     <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Assets\Tiles\IconicTileSmall.png">
       <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\1.png">
+      <PackagePath>imagenes\farmacias\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\10.png">
+      <PackagePath>imagenes\farmacias\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\11.png">
+      <PackagePath>imagenes\farmacias\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\12.png">
+      <PackagePath>imagenes\farmacias\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\13.png">
+      <PackagePath>imagenes\farmacias\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\14.png">
+      <PackagePath>imagenes\farmacias\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\15.png">
+      <PackagePath>imagenes\farmacias\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\16.png">
+      <PackagePath>imagenes\farmacias\16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\17.png">
+      <PackagePath>imagenes\farmacias\17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\18.png">
+      <PackagePath>imagenes\farmacias\18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\19.png">
+      <PackagePath>imagenes\farmacias\19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\2.png">
+      <PackagePath>imagenes\farmacias\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\20.png">
+      <PackagePath>imagenes\farmacias\20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\3.png">
+      <PackagePath>imagenes\farmacias\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\4.png">
+      <PackagePath>imagenes\farmacias\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\5.png">
+      <PackagePath>imagenes\farmacias\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\6.png">
+      <PackagePath>imagenes\farmacias\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\7.png">
+      <PackagePath>imagenes\farmacias\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\8.png">
+      <PackagePath>imagenes\farmacias\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\farmacias\9.png">
+      <PackagePath>imagenes\farmacias\9.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\imagenes\flechaDerecha.png">
       <PackagePath>imagenes\flechaDerecha.png</PackagePath>
     </AppxPackagedFile>

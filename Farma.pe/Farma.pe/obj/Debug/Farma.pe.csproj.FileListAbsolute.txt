@@ -490,8 +490,6 @@ C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Farma.pe.build.
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Properties\WMAppManifest.xml
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\AppManifest.xaml
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Farma.pe_Debug_AnyCPU.xap
-C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
-C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Newtonsoft.Json.dll
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Newtonsoft.Json.xml
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
@@ -572,3 +570,5 @@ C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\obj\Debug\MultipleQualifi
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\obj\Debug\ProjectArchitectures.txt
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\obj\Debug\MDILProjectFiles.xml
 C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\obj\Debug\XapCacheFile.xml
+C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\IINTEGRAZI EIRL\Desktop\GIT\Farma.pe\Farma.pe\Bin\Debug\Newtonsoft.Json.dll
